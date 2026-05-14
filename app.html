@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuxilioYA – App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="app-body" data-theme="light">
+
+  <!-- ===== SCREEN: HOME ===== -->
+  <div class="screen active" id="screen-home">
+    <header class="app-header">
+      <button class="header-btn" id="btn-settings" aria-label="Configuración">
+        <span class="material-symbols-rounded">settings</span>
+      </button>
+      <span class="header-title">AuxilioYA</span>
+      <button class="header-btn" id="btn-alarm" aria-label="Alarma">
+        <span class="material-symbols-rounded">notifications_active</span>
+      </button>
+    </header>
+
+    <main class="home-main">
+      <p class="welcome-text">Bienvenido</p>
+      <div class="cards-list">
+
+        <a class="card-item card-pink" href="#" data-target="screen-heridas">
+          <div class="card-icon-wrap">
+            <span class="material-symbols-rounded">personal_injury</span>
+          </div>
+          <div class="card-info">
+            <span class="card-title">Identificación de Tipos de Heridos</span>
+            <span class="card-sub">6 categorías</span>
+          </div>
+          <span class="material-symbols-rounded card-arrow">chevron_right</span>
+        </a>
+
+        <a class="card-item card-blue" href="#" data-target="screen-vitales">
+          <div class="card-icon-wrap">
+            <span class="material-symbols-rounded">favorite</span>
+          </div>
+          <div class="card-info">
+            <span class="card-title">Signos Vitales</span>
+            <span class="card-sub">4 indicadores</span>
+          </div>
+          <span class="material-symbols-rounded card-arrow">chevron_right</span>
+        </a>
+
+        <a class="card-item card-green" href="#" data-target="screen-protocolo">
+          <div class="card-icon-wrap">
+            <span class="material-symbols-rounded">shield_with_heart</span>
+          </div>
+          <div class="card-info">
+            <span class="card-title">Protocolo</span>
+            <span class="card-sub">3 pasos clave</span>
+          </div>
+          <span class="material-symbols-rounded card-arrow">chevron_right</span>
+        </a>
+
+        <a class="card-item card-orange" href="#" data-target="screen-botiquin">
+          <div class="card-icon-wrap">
+            <span class="material-symbols-rounded">medical_services</span>
+          </div>
+          <div class="card-info">
+            <span class="card-title">Botiquín</span>
+            <span class="card-sub">3 categorías</span>
+          </div>
+          <span class="material-symbols-rounded card-arrow">chevron_right</span>
+        </a>
+
+      </div>
+
+      <button class="btn-help" data-target="screen-ayuda">
+        <span class="material-symbols-rounded">sos</span>
+        Necesitas ayuda
+      </button>
+    </main>
+
+    <footer class="app-footer">
+      <span class="material-symbols-rounded footer-icon">emergency</span>
+      <p>AuxilioYA &copy; 2026 – Primeros Auxilios</p>
+    </footer>
+  </div>
+
+  <!-- ===== SCREEN: HERIDAS LISTA ===== -->
+  <div class="screen" id="screen-heridas">
+    <header class="section-header bg-pink">
+      <button class="back-btn" data-target="screen-home"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Tipos de Heridos</span>
+    </header>
+    <div class="section-body bg-pink-light" style="background:var(--pink-bg)">
+      <ul class="section-list">
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="herida-cortante">
+            <span class="material-symbols-rounded">cut</span> Heridas Cortantes <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="herida-punzante">
+            <span class="material-symbols-rounded">push_pin</span> Heridas Punzantes <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="herida-contusa">
+            <span class="material-symbols-rounded">sports_mma</span> Heridas Contusas <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="herida-abrasiva">
+            <span class="material-symbols-rounded">texture</span> Heridas Abrasivas <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="herida-superficial">
+            <span class="material-symbols-rounded">healing</span> Heridas Superficiales <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="herida-profunda">
+            <span class="material-symbols-rounded">bloodtype</span> Heridas Profundas <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: SIGNOS VITALES LISTA ===== -->
+  <div class="screen" id="screen-vitales">
+    <header class="section-header bg-blue">
+      <button class="back-btn" data-target="screen-home"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Signos Vitales</span>
+    </header>
+    <div class="section-body bg-blue-light" style="background:var(--blue-bg)">
+      <ul class="section-list">
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="presion">
+            <span class="material-symbols-rounded">sphygmomanometer</span> Presión Arterial <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="pulso">
+            <span class="material-symbols-rounded">monitor_heart</span> Pulso <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="respiracion">
+            <span class="material-symbols-rounded">pulmonology</span> Respiración <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="temperatura">
+            <span class="material-symbols-rounded">thermometer</span> Temperatura <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: PROTOCOLO LISTA ===== -->
+  <div class="screen" id="screen-protocolo">
+    <header class="section-header bg-green">
+      <button class="back-btn" data-target="screen-home"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Protocolo</span>
+    </header>
+    <div class="section-body bg-green-light" style="background:var(--green-bg)">
+      <ul class="section-list">
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="proteger">
+            <span class="material-symbols-rounded">security</span> Proteger <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="alertar">
+            <span class="material-symbols-rounded">campaign</span> Alertar <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="socorrer">
+            <span class="material-symbols-rounded">volunteer_activism</span> Socorrer <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: BOTIQUÍN LISTA ===== -->
+  <div class="screen" id="screen-botiquin">
+    <header class="section-header bg-orange">
+      <button class="back-btn" data-target="screen-home"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Botiquín</span>
+    </header>
+    <div class="section-body bg-orange-light" style="background:var(--orange-bg)">
+      <ul class="section-list">
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="curacion">
+            <span class="material-symbols-rounded">bandage</span> Material de Curación <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="limpieza">
+            <span class="material-symbols-rounded">sanitizer</span> Material de Limpieza y Desinfección <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+        <li><a href="#" class="section-item" data-target="screen-detail" data-detail="gestion">
+            <span class="material-symbols-rounded">crisis_alert</span> Material de Gestión y Emergencias <span
+              class="material-symbols-rounded si-arrow">chevron_right</span>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: DETAIL ===== -->
+  <div class="screen" id="screen-detail">
+    <header class="section-header" id="detail-header">
+      <button class="back-btn" id="detail-back-btn"><span class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title" id="detail-title">Detalle</span>
+    </header>
+    <div class="detail-body" id="detail-body">
+      <img src="img/placeholder.svg" alt="Ilustración" class="detail-img" id="detail-img" />
+      <div class="detail-content" id="detail-content"></div>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: AYUDA ===== -->
+  <div class="screen" id="screen-ayuda">
+    <header class="section-header bg-red">
+      <button class="back-btn" data-target="screen-home"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Necesitas Ayuda</span>
+    </header>
+    <div class="detail-body ayuda-body">
+      <div class="ayuda-icon"><span class="material-symbols-rounded">sos</span></div>
+      <h2>¿Estás en una emergencia?</h2>
+      <p>Llama inmediatamente al número de emergencias de tu país. Mantén la calma y sigue las instrucciones del
+        operador.</p>
+      <div class="ayuda-numbers">
+        <div class="ayuda-number-card">
+          <span class="material-symbols-rounded">emergency</span>
+          <div><strong>Emergencias</strong><span>911</span></div>
+        </div>
+        <div class="ayuda-number-card">
+          <span class="material-symbols-rounded">local_hospital</span>
+          <div><strong>Cruz Roja</strong><span>132</span></div>
+        </div>
+        <div class="ayuda-number-card">
+          <span class="material-symbols-rounded">local_fire_department</span>
+          <div><strong>Bomberos</strong><span>119</span></div>
+        </div>
+      </div>
+      <p class="ayuda-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: CONFIGURACIÓN ===== -->
+  <div class="screen" id="screen-settings">
+    <header class="section-header bg-gray">
+      <button class="back-btn" data-target="screen-home"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Configuración</span>
+    </header>
+    <div class="detail-body settings-body">
+      <div class="settings-item" id="toggle-theme">
+        <div class="settings-item-info">
+          <span class="material-symbols-rounded">dark_mode</span>
+          <div>
+            <strong>Tema</strong>
+            <span id="theme-label">Modo claro activo</span>
+          </div>
+        </div>
+        <div class="toggle-switch" id="theme-toggle">
+          <div class="toggle-knob"></div>
+        </div>
+      </div>
+      <a href="#" class="settings-item" data-target="screen-quienes">
+        <div class="settings-item-info">
+          <span class="material-symbols-rounded">group</span>
+          <div><strong>¿Quiénes somos?</strong><span>Conoce el equipo</span></div>
+        </div>
+        <span class="material-symbols-rounded">chevron_right</span>
+      </a>
+      <a href="#" class="settings-item" data-target="screen-terminos">
+        <div class="settings-item-info">
+          <span class="material-symbols-rounded">gavel</span>
+          <div><strong>Términos y Condiciones</strong><span>Leer política</span></div>
+        </div>
+        <span class="material-symbols-rounded">chevron_right</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: QUIÉNES SOMOS ===== -->
+  <div class="screen" id="screen-quienes">
+    <header class="section-header bg-gray">
+      <button class="back-btn" data-target="screen-settings"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">¿Quiénes somos?</span>
+    </header>
+    <div class="detail-body">
+      <img src="img/placeholder.svg" alt="Equipo AuxilioYA" class="detail-img" />
+      <div class="detail-content">
+        <h2>Nuestro Equipo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula justo nec lorem dignissim, vel
+          lobortis enim fermentum. Fusce varius, nibh at tincidunt aliquet, tortor est tincidunt odio, vel pellentesque
+          metus quam a diam.</p>
+        <h3>Nuestra Misión</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </p>
+        <h3>Nuestra Visión</h3>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+          dolores eos qui ratione voluptatem sequi nesciunt.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: TÉRMINOS ===== -->
+  <div class="screen" id="screen-terminos">
+    <header class="section-header bg-gray">
+      <button class="back-btn" data-target="screen-settings"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Términos y Condiciones</span>
+    </header>
+    <div class="detail-body">
+      <div class="detail-content">
+        <h2>Términos y Condiciones de Uso</h2>
+        <p><em>Última actualización: Mayo 2026</em></p>
+        <h3>1. Aceptación</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula justo nec lorem dignissim.</p>
+        <h3>2. Uso de la Información</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam.</p>
+        <h3>3. Limitación de Responsabilidad</h3>
+        <p>Esta aplicación es solo orientativa. En caso de emergencia real, contacte siempre a los servicios de
+          emergencias profesionales.</p>
+        <h3>4. Privacidad</h3>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+          dolores eos.</p>
+        <h3>5. Cambios</h3>
+        <p>Ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+          ullam.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN: ALARMA ===== -->
+  <div class="screen" id="screen-alarma">
+    <header class="section-header bg-red">
+      <button class="back-btn" data-target="screen-home"><span
+          class="material-symbols-rounded">arrow_back</span></button>
+      <span class="section-header-title">Alarma de Emergencia</span>
+    </header>
+    <div class="detail-body alarma-body">
+      <div class="alarma-icon" id="alarma-icon">
+        <span class="material-symbols-rounded">notifications_active</span>
+      </div>
+      <h2>Alarma de Emergencia</h2>
+      <p>Presiona el botón para activar la alarma de ambulancia. Úsala solo en situaciones de emergencia real.</p>
+      <button class="btn-alarma" id="btn-alarma-sound">
+        <span class="material-symbols-rounded">volume_up</span>
+        Activar Alarma
+      </button>
+      <p class="alarma-status" id="alarma-status">Alarma inactiva</p>
+    </div>
+  </div>
+
+  <script src="js/details.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
