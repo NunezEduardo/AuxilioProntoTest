@@ -206,7 +206,7 @@ const DETAILS = {
     color:  '#2e7d32',
     content: `
       <h2>Paso 1: Proteger</h2>
-      <p>Lorem ipsum dolor sit amet. Antes de actuar, asegúrate de que tanto el lugar del accidente como tú mismo estén seguros.</p>
+      <p>Antes de actuar, asegúrate de que tanto el lugar del accidente como tú mismo estén seguros.</p>
       <h3>Evalúa el Entorno</h3>
       <ul>
         <li>Señaliza el área de peligro</li>
@@ -215,8 +215,7 @@ const DETAILS = {
         <li>Usa guantes y protección personal</li>
       </ul>
       <h3>Principios Clave</h3>
-      <p>Sed ut perspiciatis. Tu seguridad es primero. Un socorrista herido solo agrava la situación. Evalúa antes de actuar.</p>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+      <p>Después de cada accidente puede persistir el peligro que lo originó. Necesitamos hacer seguro el lugar, tanto para el accidentado como para nosotros. Si hubiera algún peligro, aléjelo de usted y del accidentado. De no ser posible aleje al accidentado del peligro.</p>
     `
   },
   'alertar': {
@@ -228,14 +227,15 @@ const DETAILS = {
       <p>Lorem ipsum dolor sit amet. Activa los servicios de emergencia lo antes posible. Cada segundo cuenta en una emergencia.</p>
       <h3>Cómo Alertar</h3>
       <ul>
-        <li>Llama al 911 (o número local)</li>
-        <li>Indica la ubicación exacta</li>
-        <li>Describe lo ocurrido brevemente</li>
-        <li>Menciona el número de heridos</li>
-        <li>No cuelgues hasta que te lo indiquen</li>
+        <li><strong>Dar aviso a los sistemas de emergencia:</strong> Identificándose con su nombre y número de teléfono.</li>
+<li><strong>Informar la dirección exacta:</strong> Proporcionar referencias claras para localizar el lugar rápidamente.</li>
+<li><strong>Especificar el número de personas accidentadas:</strong> Indicar cuántas víctimas hay y el tipo de lesiones que presentan.</li>
+<li><strong>Reportar peligros existentes:</strong> Advertir sobre situaciones que puedan empeorar la emergencia (fuegos, fugas de gas, cables caídos, etc.).</li>
+<li><strong>Comprobar la recepción del mensaje:</strong> No colgar el teléfono hasta estar completamente seguro de que la información fue recibida.</li>
+<li><strong>Confirmación final:</strong> Hacer que la persona que ha recibido el mensaje lo repita para evitar errores.</li>
       </ul>
       <h3>Información que debes dar</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus. Indica si hay peligros activos: fuego, gases, tráfico. Sigue las instrucciones del operador.</p>
+      <p>Indica si hay peligros activos: fuego, gases, tráfico. Sigue las instrucciones del operador.</p>
     `
   },
   'socorrer': {
@@ -244,17 +244,16 @@ const DETAILS = {
     color:  '#2e7d32',
     content: `
       <h2>Paso 3: Socorrer</h2>
-      <p>Lorem ipsum dolor sit amet. Una vez seguro el entorno y alertados los servicios, presta primeros auxilios básicos sin mover innecesariamente al herido.</p>
+      <p>Una vez seguro el entorno y alertados los servicios, presta primeros auxilios básicos sin mover innecesariamente al herido.</p>
       <h3>Prioridades</h3>
       <ul>
-        <li>Verifica consciencia y respiración</li>
-        <li>Controla hemorragias graves</li>
-        <li>Coloca en posición lateral si inconsciente</li>
-        <li>Inicia RCP si no hay pulso</li>
-        <li>Mantén al herido abrigado y tranquilo</li>
+       <li><strong>Mantener la calma:</strong> Actuar con serenidad para dar confianza y tranquilizar a la víctima.</li>
+<li><strong>No mover al accidentado:</strong> Evitar cualquier desplazamiento del herido a menos que exista un peligro inminente (como un incendio o derrumbe).</li>
+<li><strong>Exploración primaria:</strong> Evaluar de forma rápida y prioritaria los signos vitales (consciencia, respiración y pulso).</li>
+<li><strong>Exploración secundaria:</strong> Examinar de manera detallada al lesionado para identificar otros síntomas, heridas o dolores menos evidentes.</li>
       </ul>
       <h3>Actitud del Socorrista</h3>
-      <p>Sed ut perspiciatis. Mantén la calma, habla al herido constantemente y no dejes de vigilar sus constantes vitales hasta que lleguen los servicios.</p>
+      <p>Mantén la calma, habla al herido constantemente y no dejes de vigilar sus constantes vitales hasta que lleguen los servicios.</p>
     `
   },
 
