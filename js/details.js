@@ -128,7 +128,7 @@ const DETAILS = {
     color:  '#1565c0',
     content: `
       <h2>Presión Arterial</h2>
-      <p>Lorem ipsum dolor sit amet. La presión arterial es la fuerza que ejerce la sangre contra las paredes de las arterias. Se mide en milímetros de mercurio (mmHg).</p>
+      <p>La presión arterial es la fuerza que ejerce la sangre contra las paredes de las arterias. Se mide en milímetros de mercurio (mmHg).</p>
       <h3>Valores Normales</h3>
       <ul>
         <li>Normal: 120/80 mmHg</li>
@@ -137,8 +137,7 @@ const DETAILS = {
         <li>Hipotensión: menor de 90/60</li>
       </ul>
       <h3>Cómo Medirla</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus. Siéntate en reposo 5 minutos antes de medir. Coloca el brazalete a la altura del corazón.</p>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+      <p>Siéntate en reposo 5 minutos antes de medir. Coloca el brazalete a la altura del corazón.</p>
     `
   },
   'pulso': {
@@ -147,7 +146,7 @@ const DETAILS = {
     color:  '#1565c0',
     content: `
       <h2>Pulso</h2>
-      <p>Lorem ipsum dolor sit amet. El pulso es la expansión y contracción rítmica de una arteria, resultado de cada latido del corazón.</p>
+      <p>El pulso es la expansión y contracción rítmica de una arteria, resultado de cada latido del corazón.</p>
       <h3>Valores Normales</h3>
       <ul>
         <li>Adultos: 60–100 lpm en reposo</li>
@@ -157,7 +156,6 @@ const DETAILS = {
       </ul>
       <h3>Cómo Tomarlo</h3>
       <p>Coloca dos dedos sobre la arteria radial (muñeca) o carótida (cuello). Cuenta los latidos durante 60 segundos o 30 segundos y multiplica por 2.</p>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
     `
   },
   'respiracion': {
@@ -166,7 +164,7 @@ const DETAILS = {
     color:  '#1565c0',
     content: `
       <h2>Respiración</h2>
-      <p>Lorem ipsum dolor sit amet. La frecuencia respiratoria es el número de respiraciones completas (inspiración + espiración) por minuto.</p>
+      <p>La frecuencia respiratoria es el número de respiraciones completas (inspiración + espiración) por minuto.</p>
       <h3>Valores Normales</h3>
       <ul>
         <li>Adultos: 12–20 rpm</li>
@@ -175,8 +173,7 @@ const DETAILS = {
         <li>Taquipnea: más de 20 en adultos</li>
       </ul>
       <h3>Evaluación</h3>
-      <p>Observa el movimiento del tórax durante 60 segundos. Lorem ipsum dolor sit amet. Una respiración normal es silenciosa y sin esfuerzo.</p>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+      <p>Observa el movimiento del tórax durante 60 segundos. Una respiración normal es silenciosa y sin esfuerzo.</p>
     `
   },
   'temperatura': {
@@ -185,7 +182,7 @@ const DETAILS = {
     color:  '#1565c0',
     content: `
       <h2>Temperatura Corporal</h2>
-      <p>Lorem ipsum dolor sit amet. La temperatura corporal refleja el equilibrio entre la producción y pérdida de calor del cuerpo.</p>
+      <p>La temperatura corporal refleja el equilibrio entre la producción y pérdida de calor del cuerpo.</p>
       <h3>Valores Normales</h3>
       <ul>
         <li>Normal: 36°C – 37.5°C</li>
@@ -194,8 +191,7 @@ const DETAILS = {
         <li>Hipotermia: menor de 35°C</li>
       </ul>
       <h3>Cómo Medirla</h3>
-      <p>Usa termómetro digital axilar (agrega 0.5°C al resultado), oral o timpánico. Sed ut perspiciatis unde omnis iste natus error.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. En fiebre alta, aplica paños húmedos y consulta al médico.</p>
+      <p>Usa termómetro digital axilar (agrega 0.5°C al resultado), oral o timpánico. En fiebre alta, aplica paños húmedos y consulta al médico.</p>
     `
   },
 
@@ -224,7 +220,7 @@ const DETAILS = {
     color:  '#2e7d32',
     content: `
       <h2>Paso 2: Alertar</h2>
-      <p>Lorem ipsum dolor sit amet. Activa los servicios de emergencia lo antes posible. Cada segundo cuenta en una emergencia.</p>
+      <p>Activa los servicios de emergencia lo antes posible. Cada segundo cuenta en una emergencia.</p>
       <h3>Cómo Alertar</h3>
       <ul>
         <li><strong>Dar aviso a los sistemas de emergencia:</strong> Identificándose con su nombre y número de teléfono.</li>
@@ -264,7 +260,7 @@ const DETAILS = {
     color:  '#e65100',
     content: `
       <h2>Material de Curación</h2>
-      <p>Lorem ipsum dolor sit amet. El material de curación es indispensable para tratar heridas y lesiones en el lugar del accidente.</p>
+      <p>El material de curación es indispensable para tratar heridas y lesiones en el lugar del accidente.</p>
       <h3>Elementos Básicos</h3>
       <ul>
         <li>Gasas estériles (varios tamaños)</li>
@@ -276,7 +272,7 @@ const DETAILS = {
         <li>Pinzas estériles</li>
       </ul>
       <h3>Mantenimiento</h3>
-      <p>Sed ut perspiciatis. Revisa las fechas de caducidad regularmente. Repón los materiales usados inmediatamente. Almacena en lugar fresco y seco.</p>
+      <p>Revisa las fechas de caducidad regularmente. Repón los materiales usados inmediatamente. Almacena en lugar fresco y seco.</p>
     `
   },
   'limpieza': {
@@ -285,18 +281,18 @@ const DETAILS = {
     color:  '#e65100',
     content: `
       <h2>Limpieza y Desinfección</h2>
-      <p>Lorem ipsum dolor sit amet. La correcta desinfección de heridas previene infecciones que pueden complicar seriamente la recuperación.</p>
+      <p>La correcta desinfección de heridas previene infecciones que pueden complicar seriamente la recuperación.</p>
       <h3>Elementos Básicos</h3>
       <ul>
-        <li>Agua oxigenada (H₂O₂ 3%)</li>
-        <li>Povidona yodada (Betadine)</li>
-        <li>Suero fisiológico para irrigar</li>
-        <li>Alcohol isopropílico 70%</li>
-        <li>Jabón antiséptico líquido</li>
-        <li>Guantes desechables (varios pares)</li>
+        <li>Agua oxigenada (Peróxidode hidrógeno) = se usa para ayudar a detener pequeñas hemorragias capilares y para despegar gasas o vendas que se hayan quedado pegadas a la costra de una herida sin arrancar la piel.</li>
+        <li>Toallitas antisécticas (con alcohol) = Se usan para limpiar las manos del auxiliador rápidamente si no hay agua y jabón cerca antes de tocar una herida.</li>
+        <li>Clorhexidina al 0.2% = Es un antiséptico transparente que se aplica directamente sobre la herida limpia.</li>
+        <li>Alcohol 70°= se utiliza para desinfectar las manos de quien va a curar o para limpiar la piel sana alrededor de la lesión (no se debe aplicar en heridas abiertas porque quema las células y retrasa la cicatrización)</li>
+        <li>Jabón neutro (Líquido o en barra) = se usa junto con agua limpia para lavar la zona infectada y eliminar la suciedad superficial</li>
+        <li>Gel antibacterial = se usan para desinfectar las manos de ka persona que va a realizar la cura para no contaminar la lesión</li>
       </ul>
       <h3>Uso Correcto</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus. Limpia siempre de adentro hacia afuera. Nunca uses alcohol en heridas abiertas profundas.</p>
+      <p>Limpia siempre de adentro hacia afuera. Nunca uses alcohol en heridas abiertas profundas.</p>
     `
   },
   'gestion': {
@@ -305,7 +301,7 @@ const DETAILS = {
     color:  '#e65100',
     content: `
       <h2>Material de Gestión y Emergencias</h2>
-      <p>Lorem ipsum dolor sit amet. Elementos adicionales que permiten actuar con mayor eficacia ante situaciones críticas.</p>
+      <p>Elementos adicionales que permiten actuar con mayor eficacia ante situaciones críticas.</p>
       <h3>Elementos Básicos</h3>
       <ul>
         <li>Torniquete o banda hemostática</li>
@@ -317,7 +313,7 @@ const DETAILS = {
         <li>Lista de medicamentos y alergias del paciente</li>
       </ul>
       <h3>Organización</h3>
-      <p>Sed ut perspiciatis. Clasifica el material por categorías y revísalo cada 6 meses. Todos en casa deben saber dónde está el botiquín.</p>
+      <p>Clasifica el material por categorías y revísalo cada 6 meses. Todos en casa deben saber dónde está el botiquín.</p>
     `
   },
 };
