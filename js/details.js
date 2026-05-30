@@ -1,6 +1,6 @@
 // details.js – Content data for every detail screen
 const DETAILS = {
-  /* ── HERIDAS ── */
+  /* ── HERIDAS CCC ── */
   'herida-cortante': {
     title:  'Heridas Cortantes',
     back:   'screen-heridas',
