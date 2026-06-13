@@ -1,6 +1,6 @@
 // app.js – Navigation, theme, alarm
 (function () {
-
+  
   /* ── Screen navigation ── */
   function showScreen(id) {
     document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -33,7 +33,8 @@
       // Set content
       document.getElementById('detail-title').textContent = data.title;
       document.getElementById('detail-content').innerHTML = data.content;
-      document.getElementById('detail-img').src = 'img/placeholder.svg';
+      // Set image from data or use placeholder
+      document.getElementById('detail-img').src = data.image || 'img/placeholder.svg';
 
       showScreen('screen-detail');
       return;
