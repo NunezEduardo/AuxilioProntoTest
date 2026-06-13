@@ -5,7 +5,6 @@ const DETAILS = {
     title:  'Heridas Cortantes',
     back:   'screen-heridas',
     color:  '#e91e7a',
-    image: 'img/WhatsApp Image 2026-06-13 at 12.41.30 PM.jpeg',
     content: `
       <h2>Heridas Cortantes</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula justo nec lorem dignissim. Las heridas cortantes son producidas por objetos afilados como cuchillos, vidrios o la[...]
@@ -27,7 +26,6 @@ const DETAILS = {
     title:  'Heridas Punzantes',
     back:   'screen-heridas',
     color:  '#e91e7a',
-    image: 'img/WhatsApp Image 2026-06-13 at 12.41.30 PM (1).jpeg',
     content: `
       <h2>Heridas Punzantes</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Las heridas punzantes son causadas por objetos puntiagudos que penetran la piel, como clavos, agujas o espinas.</p>
@@ -49,7 +47,6 @@ const DETAILS = {
     title:  'Heridas Contusas',
     back:   'screen-heridas',
     color:  '#e91e7a',
-    image: 'img/WhatsApp Image 2026-06-13 at 12.41.30 PM (2).jpeg',
     content: `
       <h2>Heridas Contusas</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Producidas por golpes con objetos romos o por caídas, provocando magulladuras y desgarros.</p>
@@ -70,7 +67,6 @@ const DETAILS = {
     title:  'Heridas Abrasivas',
     back:   'screen-heridas',
     color:  '#e91e7a',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Heridas Abrasivas</h2>
       <p>Lorem ipsum dolor sit amet. Las heridas abrasivas o rozaduras ocurren cuando la piel se frota con una superficie rugosa, arrancando las capas superficiales.</p>
@@ -90,7 +86,6 @@ const DETAILS = {
     title:  'Heridas Superficiales',
     back:   'screen-heridas',
     color:  '#e91e7a',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Heridas Superficiales</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Afectan solo a la epidermis y dermis superior, sin comprometer tejidos más profundos.</p>
@@ -110,7 +105,6 @@ const DETAILS = {
     title:  'Heridas Profundas',
     back:   'screen-heridas',
     color:  '#e91e7a',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Heridas Profundas</h2>
       <p>Lorem ipsum dolor sit amet. Comprometen múltiples capas de tejido, incluyendo músculo, tendones o incluso huesos.</p>
@@ -132,7 +126,6 @@ const DETAILS = {
     title:  'Presión Arterial',
     back:   'screen-vitales',
     color:  '#1565c0',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Presión Arterial</h2>
       <p>La presión arterial es la fuerza que ejerce la sangre contra las paredes de las arterias. Se mide en milímetros de mercurio (mmHg).</p>
@@ -151,7 +144,6 @@ const DETAILS = {
     title:  'Pulso',
     back:   'screen-vitales',
     color:  '#1565c0',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Pulso</h2>
       <p>El pulso es la expansión y contracción rítmica de una arteria, resultado de cada latido del corazón.</p>
@@ -170,7 +162,6 @@ const DETAILS = {
     title:  'Respiración',
     back:   'screen-vitales',
     color:  '#1565c0',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Respiración</h2>
       <p>La frecuencia respiratoria es el número de respiraciones completas (inspiración + espiración) por minuto.</p>
@@ -189,7 +180,6 @@ const DETAILS = {
     title:  'Temperatura',
     back:   'screen-vitales',
     color:  '#1565c0',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Temperatura Corporal</h2>
       <p>La temperatura corporal refleja el equilibrio entre la producción y pérdida de calor del cuerpo.</p>
@@ -210,7 +200,7 @@ const DETAILS = {
     title:  'Proteger',
     back:   'screen-protocolo',
     color:  '#2e7d32',
-    image: 'img/placeholder.svg',
+    image: 'img/WhatsApp Image 2026-06-13 at 12.41.30 PM.jpeg',
     content: `
       <h2>Paso 1: Proteger</h2>
       <p>Antes de actuar, asegúrate de que tanto el lugar del accidente como tú mismo estén seguros.</p>
@@ -229,7 +219,7 @@ const DETAILS = {
     title:  'Alertar',
     back:   'screen-protocolo',
     color:  '#2e7d32',
-    image: 'img/placeholder.svg',
+    image: 'img/WhatsApp Image 2026-06-13 at 12.41.30 PM (1).jpeg',
     content: `
       <h2>Paso 2: Alertar</h2>
       <p>Activa los servicios de emergencia lo antes posible. Cada segundo cuenta en una emergencia.</p>
@@ -250,7 +240,7 @@ const DETAILS = {
     title:  'Socorrer',
     back:   'screen-protocolo',
     color:  '#2e7d32',
-    image: 'img/placeholder.svg',
+    image: 'img/WhatsApp Image 2026-06-13 at 12.41.30 PM (2).jpeg',
     content: `
       <h2>Paso 3: Socorrer</h2>
       <p>Una vez seguro el entorno y alertados los servicios, presta primeros auxilios básicos sin mover innecesariamente al herido.</p>
@@ -271,7 +261,6 @@ const DETAILS = {
     title:  'Material de Curación',
     back:   'screen-botiquin',
     color:  '#e65100',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Material de Curación</h2>
       <p>El material de curación es indispensable para tratar heridas y lesiones en el lugar del accidente.</p>
@@ -293,7 +282,6 @@ const DETAILS = {
     title:  'Material de Limpieza y Desinfección',
     back:   'screen-botiquin',
     color:  '#e65100',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Limpieza y Desinfección</h2>
       <p>La correcta desinfección de heridas previene infecciones que pueden complicar seriamente la recuperación.</p>
@@ -314,7 +302,6 @@ const DETAILS = {
     title:  'Material de Gestión y Emergencias',
     back:   'screen-botiquin',
     color:  '#e65100',
-    image: 'img/placeholder.svg',
     content: `
       <h2>Material de Gestión y Emergencias</h2>
       <p>Elementos adicionales que permiten actuar con mayor eficacia ante situaciones críticas.</p>
