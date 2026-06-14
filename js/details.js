@@ -6,20 +6,28 @@ const DETAILS = {
     back:   'screen-heridas',
     color:  '#e91e7a',
     content: `
-      <h2>Heridas Cortantes</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula justo nec lorem dignissim. Las heridas cortantes son producidas por objetos afilados como cuchillos, vidrios o la[...]
-      <h3>Características</h3>
+      <h2>Herida cortante</h2>
+      <h3>1. Lavarse las manos</h3>
+      <p>Antes de tocar la herida, lávate las manos con agua y jabón para evitar la transferencia de bacterias y prevenir infecciones.</p>
+      <h3>2. Detener el sangrado (Prioridad)</h3>
+      <p>Las heridas cortantes suelen sangrar de forma constante.</p>
       <ul>
-        <li>Bordes limpios y bien definidos</li>
-        <li>Sangrado abundante</li>
-        <li>Pueden afectar tejidos profundos</li>
-        <li>Riesgo de infección moderado</li>
+        <li>Aplica presión directa y firme sobre el corte utilizando una gasa estéril o un paño limpio.</li>
+        <li>Mantén la presión durante 5 minutos seguidos sin levantar la gasa para revisar, ya que esto podría romper el coágulo que se está formando.</li>
+        <li>Si la herida es en un brazo o una pierna, elévala por encima del nivel del corazón para reducir el flujo de sangre.</li>
       </ul>
-      <h3>Primeros Auxilios</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Aplica presión directa con una gasa limpia durante al menos 5 minutos.</p>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-      <h3>Cuándo buscar ayuda</h3>
-      <p>Ut labore et dolore magnam aliquam quaerat voluptatem. Si el sangrado no cede en 10 minutos o la herida es profunda, acude a urgencias inmediatamente.</p>
+      <h3>3. Limpiar la herida</h3>
+      <p>Una vez que el sangrado haya disminuido o parado:</p>
+      <ul>
+        <li>Enjuaga la zona con agua limpia del grifo durante unos minutos para retirar cualquier residuo.</li>
+        <li>Limpia la piel de los alrededores con jabón suave. Intenta que no entre jabón directamente en el corte para evitar irritación.</li>
+        <li>Al igual que en otros casos, evita el alcohol o el agua oxigenada, ya que retrasan el proceso natural de curación.</li>
+      </ul>
+      <h3>4. Aplicar un ungüento y cubrir</h3>
+      <ul>
+        <li>Si dispones de ella, aplica una capa fina de pomada antibiótica o vaselina para mantener la zona humectada.</li>
+        <li>Junta los bordes de la piel con cuidado si es posible y cúbrela con una tirita (curita) o una gasa estéril sujeta con esparadrapo.</li>
+      </ul>
     `
   },
   'herida-punzante': {
@@ -27,20 +35,27 @@ const DETAILS = {
     back:   'screen-heridas',
     color:  '#e91e7a',
     content: `
-      <h2>Heridas Punzantes</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Las heridas punzantes son causadas por objetos puntiagudos que penetran la piel, como clavos, agujas o espinas.</p>
-      <h3>Características</h3>
+      <h2>Herida punzante</h2>
+      <h3>1. Lavarse las manos</h3>
+      <p>Antes de atender a la persona, lávate muy bien las manos con agua y jabón para evitar introducir bacterias en la lesión.</p>
+      <h3>2. Evaluar el objeto incrustado (Regla de oro)</h3>
       <ul>
-        <li>Apertura pequeña pero profunda</li>
-        <li>Sangrado externo escaso</li>
-        <li>Alto riesgo de infección interna</li>
-        <li>Posible daño a órganos internos</li>
+        <li><strong>Si el objeto sigue clavado:</strong> NO lo retires. Sacarlo puede provocar una hemorragia grave o causar más daño a los tejidos internos. Inmoviliza el objeto colocando gasas o paños limpios a los lados para que no se mueva y busca atención médica de inmediato.</li>
+        <li><strong>Si el objeto ya no está en la herida:</strong> Procede con los siguientes pasos de limpieza.</li>
       </ul>
-      <h3>Primeros Auxilios</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error. No extraigas el objeto si está profundamente incrustado. Inmoviliza el objeto si es posible y acude a urgencias.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Verifica el estado de vacunación antitetánica del afectado.</p>
-      <h3>Prevención</h3>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur. Usa calzado adecuado y guantes cuando manipules materiales punzantes.</p>
+      <h3>3. Detener el sangrado</h3>
+      <p>Las heridas punzantes no suelen sangrar de forma abundante a menos que hayan alcanzado un vaso sanguíneo importante. Si hay sangrado, aplica presión directa y suave sobre la zona con una gasa estéril o un paño limpio durante unos minutos.</p>
+      <h3>4. Limpiar la herida</h3>
+      <ul>
+        <li>Enjuaga la zona afectada con abundante agua limpia del grifo durante unos 5 minutos para arrastrar la suciedad hacia afuera.</li>
+        <li>Lava la piel de alrededor con un jabón suave.</li>
+        <li>Nota: Evita usar alcohol o agua oxigenada dentro de la herida, ya que pueden dañar las células y retrasar la curación.</li>
+      </ul>
+      <h3>5. Aplicar un ungüento y cubrir</h3>
+      <ul>
+        <li>Si la herida está limpia y ha dejado de sangrar, aplica una capa fina de pomada antibiótica o vaselina.</li>
+        <li>Cúbrela con una tirita (curita) o una gasa estéril para protegerla de la suciedad del entorno.</li>
+      </ul>
     `
   },
   'herida-contusa': {
@@ -48,19 +63,28 @@ const DETAILS = {
     back:   'screen-heridas',
     color:  '#e91e7a',
     content: `
-      <h2>Heridas Contusas</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Producidas por golpes con objetos romos o por caídas, provocando magulladuras y desgarros.</p>
-      <h3>Características</h3>
+      <h2>Herida contusa</h2>
+      <h3>1. Lavarse las manos</h3>
+      <p>Antes de tocar la zona afectada, lávate muy bien las manos con agua y jabón para evitar introducir bacterias en la herida.</p>
+      <h3>2. Controlar el sangrado</h3>
+      <p>Debido al impacto, estas heridas pueden sangrar.</p>
       <ul>
-        <li>Bordes irregulares y desgarrados</li>
-        <li>Hematomas y moretones</li>
-        <li>Hinchazón de la zona afectada</li>
-        <li>Dolor intenso al tacto</li>
+        <li>Aplica presión firme y directa sobre la herida con una gasa estéril o un paño limpio durante unos 5 a 10 minutos.</li>
+        <li>Si la herida está en un brazo o una pierna, eleva la extremidad por encima del nivel del corazón para ayudar a reducir el sangrado.</li>
       </ul>
-      <h3>Primeros Auxilios</h3>
-      <p>Aplica hielo envuelto en un paño durante 20 minutos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleva la extremidad afectada si es posible.</p>
-      <h3>Observación</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error. Si el dolor es muy intenso o sospechas fractura, no muevas al afectado y llama a emergencias.</p>
+      <h3>3. Limpiar la zona</h3>
+      <ul>
+        <li>Enjuaga la herida con agua limpia y templada a chorro suave para eliminar la suciedad, la sangre acumulada o los residuos.</li>
+        <li>Limpia la piel de alrededor con agua y jabón suave, evitando aplicarlo directamente dentro del corte.</li>
+        <li>Evita el uso de alcohol o agua oxigenada, ya que pueden dañar el tejido expuesto y retrasar la cicatrización.</li>
+      </ul>
+      <h3>4. Reducir la inflamación (el "chichón" o hematoma)</h3>
+      <p>Como hay un componente de golpe (contusión), la zona se va a inflamar rápidamente.</p>
+      <ul>
+        <li>Aplica una compresa fría o hielo envuelto en un paño limpio sobre la zona durante 10 a 15 minutos. Nunca aplajes el hielo directamente sobre la piel o la herida abierta.</li>
+      </ul>
+      <h3>5. Proteger la herida</h3>
+      <p>Si la piel se ha abierto, aplica una capa fina de pomada antiséptica o vaselina para mantenerla húmeda y cúbrela con una gasa estéril y esparadrapo o una venda limpia.</p>
     `
   },
   'herida-abrasiva': {
@@ -68,18 +92,27 @@ const DETAILS = {
     back:   'screen-heridas',
     color:  '#e91e7a',
     content: `
-      <h2>Heridas Abrasivas</h2>
-      <p>Lorem ipsum dolor sit amet. Las heridas abrasivas o rozaduras ocurren cuando la piel se frota con una superficie rugosa, arrancando las capas superficiales.</p>
-      <h3>Características</h3>
+      <h2>Herida abrasiva</h2>
+      <h3>1. Lavarse las manos</h3>
+      <p>Antes de tocar la herida, lávate muy bien las manos con agua y jabón para evitar transferir bacterias a la zona expuesta.</p>
+      <h3>2. Limpiar la herida (El paso más importante)</h3>
+      <p>Los raspones suelen acumular mucha suciedad, tierra o arena, lo que eleva el riesgo de infección.</p>
       <ul>
-        <li>Superficie amplia y superficial</li>
-        <li>Sangrado escaso en puntitos</li>
-        <li>Gran dolor por exposición nerviosa</li>
-        <li>Presencia de suciedad o cuerpos extraños</li>
+        <li>Deja correr agua limpia y templada del grifo directamente sobre el raspón durante unos minutos para arrastrar la suciedad.</li>
+        <li>Limpia la piel de alrededor con un jabón suave. Si queda tierra incrustada dentro de la herida, puedes usar una gasa limpia humedecida para retirarla con mucha suavidad.</li>
+        <li>Evita el alcohol, el agua oxigenada o el yodo, ya que queman las células nuevas de la piel y retrasan la curación.</li>
       </ul>
-      <h3>Primeros Auxilios</h3>
-      <p>Limpia la herida con agua y jabón. Retira suavemente los cuerpos extraños. Aplica antiséptico y cubre con apósito no adherente.</p>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+      <h3>3. Detener el sangrado leve</h3>
+      <p>Las abrasiones no suelen sangrar de forma abundante, sino que "rezuman" sangre o líquido transparente. Si sangra un poco, ejerce una presión suave con una gasa estéril o un paño limpio durante unos minutos.</p>
+      <h3>4. Mantener la herida hidratada</h3>
+      <p>Aplica una capa fina de vaselina de petróleo o una pomada antibiótica. Esto mantiene la zona húmeda, evita que la costra se rompa al mover la articulación y reduce la posibilidad de que quede cicatriz.</p>
+      <h3>5. Cubrir la zona</h3>
+      <ul>
+        <li>Si la raspadura es grande o va a rozar con la ropa, cúbrela con una gasa estéril que no se pegue y sujétala con esparadrapo o una venda suave.</li>
+        <li>Si el raspón es muy pequeño y no está expuesto al roce ni a la suciedad, puedes dejarlo al aire libre una vez limpio.</li>
+      </ul>
+      <h3>6. Cambiar el vendaje</h3>
+      <p>Cambia la gasa al menos una vez al día o cada vez que se moje o se ensucie. Aprovecha para revisar que la herida mantenga un buen aspecto.</p>
     `
   },
   'herida-superficial': {
@@ -87,18 +120,23 @@ const DETAILS = {
     back:   'screen-heridas',
     color:  '#e91e7a',
     content: `
-      <h2>Heridas Superficiales</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Afectan solo a la epidermis y dermis superior, sin comprometer tejidos más profundos.</p>
-      <h3>Características</h3>
+      <h2>Herida superficial</h2>
+      <h3>1. Lavarse las manos</h3>
+      <p>Antes de tocar la herida, lávate muy bien las manos con agua y jabón. Esto evita transferir bacterias de tus manos al corte.</p>
+      <h3>2. Limpiar la herida</h3>
       <ul>
-        <li>Profundidad mínima</li>
-        <li>Sangrado leve o nulo</li>
-        <li>Cicatrizan rápidamente</li>
-        <li>Bajo riesgo de complicaciones</li>
+        <li><strong>Agua corriente:</strong> Enjuaga la herida con agua limpia y fresca del grifo durante unos minutos para eliminar la suciedad o la arena.</li>
+        <li><strong>Jabón suave:</strong> Limpia la piel alrededor de la herida con un jabón suave. Intenta que no entre jabón directo en la herida para evitar irritación.</li>
+        <li><strong>Nota:</strong> No es necesario usar alcohol, agua oxigenada o yodo, ya que pueden irritar el tejido sano y retrasar la curación.</li>
       </ul>
-      <h3>Primeros Auxilios</h3>
-      <p>Limpia con agua corriente y aplica antiséptico. Cubre con una curita o apósito. Lorem ipsum dolor sit amet.</p>
-      <p>Sed ut perspiciatis. Vigila señales de infección: enrojecimiento, calor, pus o fiebre en los días siguientes.</p>
+      <h3>3. Detener el sangrado (si lo hay)</h3>
+      <p>Las heridas superficiales no suelen sangrar mucho, pero si lo hacen, aplica una presión suave con una gasa limpia o un paño limpio durante unos minutos hasta que pare.</p>
+      <h3>4. Aplicar un ungüento (opcional)</h3>
+      <p>Puedes aplicar una capa fina de vaselina de petróleo o una crema antibiótica de venta libre. Esto mantiene la zona húmeda, lo que ayuda a prevenir cicatrices y evita que la venda se pegue.</p>
+      <h3>5. Cubrir la herida</h3>
+      <p>Coloca una tirita (curita) o una gasa estéril sobre la herida. Esto la protege de la suciedad y de las bacterias mientras se cura. Si es un raspón muy leve que no sangra ni roza con la ropa, puedes dejarlo al aire libre.</p>
+      <h3>6. Cambiar el vendaje</h3>
+      <p>Cambia la tirita o gasa al menos una vez al día, o antes si se moja o se ensucia.</p>
     `
   },
   'herida-profunda': {
@@ -106,18 +144,33 @@ const DETAILS = {
     back:   'screen-heridas',
     color:  '#e91e7a',
     content: `
-      <h2>Heridas Profundas</h2>
-      <p>Lorem ipsum dolor sit amet. Comprometen múltiples capas de tejido, incluyendo músculo, tendones o incluso huesos.</p>
-      <h3>Características</h3>
+      <h2>Herida profunda</h2>
+      <h3>1. Evaluar la seguridad y llamar a emergencias</h3>
       <ul>
-        <li>Sangrado severo y difícil de controlar</li>
-        <li>Posible exposición de tejido profundo</li>
-        <li>Alto riesgo de infección grave</li>
-        <li>Pueden requerir sutura quirúrgica</li>
+        <li>Asegúrate de que la zona sea segura para ti y para la víctima.</li>
+        <li>Llama inmediatamente al número de emergencias de tu localidad o pide a alguien más que lo haga.</li>
       </ul>
-      <h3>Primeros Auxilios</h3>
-      <p>LLAMA al 911 de inmediato. Aplica presión directa con gasa limpia. No retires la gasa aunque se sature; agrega más encima.</p>
-      <p>Nemo enim ipsam voluptatem. Mantén al afectado recostado y abrigado para evitar el shock.</p>
+      <h3>2. Lavarse las manos (si es posible)</h3>
+      <ul>
+        <li>Si tienes tiempo y acceso, lávate las manos con agua y jabón, o colócate guantes desechables para proteger a la persona de infecciones y protegerte a ti de enfermedades de transmisión sanguínea.</li>
+      </ul>
+      <h3>3. Controlar la hemorragia (El paso más crítico)</h3>
+      <ul>
+        <li><strong>Presión directa:</strong> Coloca una gasa estéril, un paño limpio o una prenda de ropa limpia directamente sobre la herida y presiona con firmeza usando ambas manos.</li>
+        <li><strong>Mantén la presión:</strong> No levantes la gasa para ver si ha dejado de sangrar, ya que esto puede romper el coágulo que se está formando. Si la sangre empapa la gasa, coloca otra encima sin quitar la primera y sigue presionando.</li>
+        <li><strong>Eleva la extremidad:</strong> Si la herida está en un brazo o una pierna, elévala por encima del nivel del corazón (siempre y cuando no se sospeche de una fractura) para ayudar a reducir el flujo de sangre.</li>
+      </ul>
+      <h3>4. Posicionar a la persona</h3>
+      <ul>
+        <li>Sienta o acuesta a la persona. Las heridas profundas y la pérdida de sangre pueden causar mareos o desmayos.</li>
+        <li>Si muestra signos de shock (palidez, piel fría, sudoración o respiración rápida), acuéstala boca arriba y, si es posible, elévale las piernas unos 30 centímetros, manteniéndola abrigada.</li>
+      </ul>
+      <h3>5. Qué NO hacer bajo ninguna circunstancia</h3>
+      <ul>
+        <li><strong>NO retires objetos incrustados:</strong> Si la herida tiene un cuchillo, un trozo de vidrio u otro objeto clavado, no lo saques. Retirarlo puede causar una hemorragia masiva. Presiona fuertemente alrededor del objeto para contener el sangrado y estabilizarlo.</li>
+        <li><strong>NO intentes lavar una herida profunda:</strong> El flujo de agua puede reactivar o empeorar una hemorragia grave. La limpieza interna la debe realizar el personal médico.</li>
+        <li><strong>NO apliques torniquetes a menos que estés capacitado:</strong> Un torniquete mal colocado puede causar daños graves. Solo se utiliza en extremidades si la presión directa no logra detener una hemorragia potencialmente mortal.</li>
+      </ul>
     `
   },
 
@@ -212,7 +265,7 @@ const DETAILS = {
         <li>Usa guantes y protección personal</li>
       </ul>
       <h3>Principios Clave</h3>
-      <p>Después de cada accidente puede persistir el peligro que lo originó. Necesitamos hacer seguro el lugar, tanto para el accidentado como para nosotros. Si hubiera algún peligro, aléjel[...]
+      <p>Después de cada accidente puede persistir el peligro que lo originó. Necesitamos hacer seguro el lugar, tanto para el accidentado como para nosotros. Si hubiera algún peligro, aléjel[...]</p>
     `
   },
   'alertar': {
@@ -226,11 +279,11 @@ const DETAILS = {
       <h3>Cómo Alertar</h3>
       <ul>
         <li><strong>Dar aviso a los sistemas de emergencia:</strong> Identificándose con su nombre y número de teléfono.</li>
-<li><strong>Informar la dirección exacta:</strong> Proporcionar referencias claras para localizar el lugar rápidamente.</li>
-<li><strong>Especificar el número de personas accidentadas:</strong> Indicar cuántas víctimas hay y el tipo de lesiones que presentan.</li>
-<li><strong>Reportar peligros existentes:</strong> Advertir sobre situaciones que puedan empeorar la emergencia (fuegos, fugas de gas, cables caídos, etc.).</li>
-<li><strong>Comprobar la recepción del mensaje:</strong> No colgar el teléfono hasta estar completamente seguro de que la información fue recibida.</li>
-<li><strong>Confirmación final:</strong> Hacer que la persona que ha recibido el mensaje lo repita para evitar errores.</li>
+        <li><strong>Informar la dirección exacta:</strong> Proporcionar referencias claras para localizar el lugar rápidamente.</li>
+        <li><strong>Especificar el número de personas accidentadas:</strong> Indicar cuántas víctimas hay y el tipo de lesiones que presentan.</li>
+        <li><strong>Reportar peligros existentes:</strong> Advertir sobre situaciones que puedan empeorar la emergencia (fuegos, fugas de gas, cables caídos, etc.).</li>
+        <li><strong>Comprobar la recepción del mensaje:</strong> No colgar el teléfono hasta estar completamente seguro de que la información fue recibida.</li>
+        <li><strong>Confirmación final:</strong> Hacer que la persona que ha recibido el mensaje lo repita para evitar errores.</li>
       </ul>
       <h3>Información que debes dar</h3>
       <p>Indica si hay peligros activos: fuego, gases, tráfico. Sigue las instrucciones del operador.</p>
@@ -246,10 +299,10 @@ const DETAILS = {
       <p>Una vez seguro el entorno y alertados los servicios, presta primeros auxilios básicos sin mover innecesariamente al herido.</p>
       <h3>Prioridades</h3>
       <ul>
-       <li><strong>Mantener la calma:</strong> Actuar con serenidad para dar confianza y tranquilizar a la víctima.</li>
-<li><strong>No mover al accidentado:</strong> Evitar cualquier desplazamiento del herido a menos que exista un peligro inminente (como un incendio o derrumbe).</li>
-<li><strong>Exploración primaria:</strong> Evaluar de forma rápida y prioritaria los signos vitales (consciencia, respiración y pulso).</li>
-<li><strong>Exploración secundaria:</strong> Examinar de manera detallada al lesionado para identificar otros síntomas, heridas o dolores menos evidentes.</li>
+        <li><strong>Mantener la calma:</strong> Actuar con serenidad para dar confianza y tranquilizar a la víctima.</li>
+        <li><strong>No mover al accidentado:</strong> Evitar cualquier desplazamiento del herido a menos que exista un peligro inminente (como un incendio o derrumbe).</li>
+        <li><strong>Exploración primaria:</strong> Evaluar de forma rápida y prioritaria los signos vitales (consciencia, respiración y pulso).</li>
+        <li><strong>Exploración secundaria:</strong> Examinar de manera detallada al lesionado para identificar otros síntomas, heridas o dolores menos evidentes.</li>
       </ul>
       <h3>Actitud del Socorrista</h3>
       <p>Mantén la calma, habla al herido constantemente y no dejes de vigilar sus constantes vitales hasta que lleguen los servicios.</p>
@@ -287,10 +340,10 @@ const DETAILS = {
       <p>La correcta desinfección de heridas previene infecciones que pueden complicar seriamente la recuperación.</p>
       <h3>Elementos Básicos</h3>
       <ul>
-        <li>Agua oxigenada (Peróxidode hidrógeno) = se usa para ayudar a detener pequeñas hemorragias capilares y para despegar gasas o vendas que se hayan quedado pegadas a la costra de una h[...]
+        <li>Agua oxigenada (Peróxidode hidrógeno) = se usa para ayudar a detener pequeñas hemorragias capilares y para despegar gasas o vendas que se hayan quedado pegadas a la costra de una h[...]</li>
         <li>Toallitas antisécticas (con alcohol) = Se usan para limpiar las manos del auxiliador rápidamente si no hay agua y jabón cerca antes de tocar una herida.</li>
         <li>Clorhexidina al 0.2% = Es un antiséptico transparente que se aplica directamente sobre la herida limpia.</li>
-        <li>Alcohol 70°= se utiliza para desinfectar las manos de quien va a curar o para limpiar la piel sana alrededor de la lesión (no se debe aplicar en heridas abiertas porque quema las c�[...]
+        <li>Alcohol 70°= se utiliza para desinfectar las manos de quien va a curar o para limpiar la piel sana alrededor de la lesión (no se debe aplicar en heridas abiertas porque quema las c[...]</li>
         <li>Jabón neutro (Líquido o en barra) = se usa junto con agua limpia para lavar la zona infectada y eliminar la suciedad superficial</li>
         <li>Gel antibacterial = se usan para desinfectar las manos de ka persona que va a realizar la cura para no contaminar la lesión</li>
       </ul>
